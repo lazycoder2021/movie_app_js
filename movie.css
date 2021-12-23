@@ -1,0 +1,164 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+body {
+    background-color: #131A28; 
+    color:white; 
+    font-family: 'Inconsolata'
+}
+
+.loadMore {
+    border: 0px solid red;
+    padding: 4px 8px;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    background-color: #1F80E0; 
+    color:white; 
+    cursor:pointer;
+    font-size:18px;
+}
+
+.heading{
+    margin-bottom:40px;
+}
+
+.movie-desc{
+    line-height:30px;
+}
+
+.movie-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.movie-detailsR {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:0px;
+}
+
+.movie-section {
+    border:0px solid red;
+}
+
+.movie-section-wrapper {
+    border: 1px solid white;
+    padding: 10px;
+    height: 65vh;
+    border-radius: 4px;
+    margin:0px auto;
+    width:1200px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between; 
+}
+
+.cast-wrapper {
+    border: 0px solid white;
+    padding: 10px;
+    height: 65vh;
+    border-radius: 4px;
+    margin: 0px auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap; 
+    justify-content: space-between;
+}
+
+.cast-member{
+    border:1px solid white;
+    padding:5px;
+    height:260px;
+    width:200px;
+    border-radius:4px;
+    margin-bottom:15px;
+    margin-top:5px;
+}
+
+.cast-member-image{
+    height:150px;
+    width:100%; 
+    border:0px solid red;
+}
+
+.cast-member-image img{
+    height:100%; 
+    width:100%; 
+    object-fit:cover;
+}
+
+.cast-member-details{
+   text-align:center;
+}
+
+.movie-poster, .movie-content{
+    width:50%; 
+    height:65vh;
+    border:0px solid white; 
+    border-radius:4px;
+}
+
+.movie-content{
+    padding-left:18px;
+}
+
+.movie-poster-image{
+    width:100%; 
+    height:100%; 
+}
+
+.movie-poster-image img{
+    width:100%; 
+    height:100%; 
+    object-fit:cover;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .movie-content{
+        border:1px solid red;
+        height:auto;
+        width:480px;
+    }
+
+    .movie-section{
+        margin:0px auto;
+        width:480px;
+        
+    }
+
+    .movie-section-wrapper{
+        flex-direction:column;
+        margin:0px auto;
+        width:480px;
+        height:500px;
+        border:0px solid white;
+        padding:0px 3px;
+    }
+
+    .movie-poster, .movie-content{
+        width:100%;
+    }
+
+    .movie-poster, .movie-poster-image{
+        height:20vh;
+    }
+
+    .movie-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .movie-details{
+        
+    }
+
+    
+
+    
+}
